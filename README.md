@@ -1,2 +1,2 @@
-# GSET_E3_Robotics_Group_-7
+# GSET_E3_Robotics
 Repo For GSET Friends in Room 304!
