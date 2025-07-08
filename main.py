@@ -22,11 +22,11 @@ ev3.speaker.beep()
 
 wait(5000) # wait for 5 seconds before starting stuff 
 
-left_motor = Motor(Port.B)
-right_motor = Motor(Port.A)
+left_motor = Motor(Port.C)
+right_motor = Motor(Port.B)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
-line_sensor = ColorSensor(Port.S3)
+line_sensor = ColorSensor(Port.S1)
 
 timer = StopWatch()
 
